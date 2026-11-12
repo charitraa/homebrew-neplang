@@ -1,24 +1,24 @@
-# Homebrew formula template. packaging/render.sh fills in 1.0.3 and the @SHA_*@
+# Homebrew formula template. packaging/render.sh fills in 1.0.4 and the @SHA_*@
 # checksums and the release workflow pushes the result to charitraa/homebrew-neplang.
 class Neplang < Formula
   desc "Programming language with romanized Nepali keywords"
   homepage "https://github.com/charitraa/NepLang"
-  version "1.0.3"
+  version "1.0.4"
   license "MIT"
 
   on_macos do
-    url "https://github.com/charitraa/NepLang/releases/download/v1.0.3/neplang-macos-universal"
-    sha256 "b2cbafc57fc8c0d416603bd2b90a779a9182a9df1adcabe190fc67685ca3ee47"
+    url "https://github.com/charitraa/NepLang/releases/download/v1.0.4/neplang-macos-universal"
+    sha256 "82e97b2bdcbc1b83f27cb3830a3c269590ca367e5457a79f93ffd830c7cca7ac"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/charitraa/NepLang/releases/download/v1.0.3/neplang-linux-x86_64"
-      sha256 "836c970989c681757cfedcab1a019c4d416282969b902e3800056852d2665fbc"
+      url "https://github.com/charitraa/NepLang/releases/download/v1.0.4/neplang-linux-x86_64"
+      sha256 "e7a8831c8b306cf47fa3ad927e1b76b39f7afa9c4bea7fa44a703d651a7a46a7"
     end
     on_arm do
-      url "https://github.com/charitraa/NepLang/releases/download/v1.0.3/neplang-linux-arm64"
-      sha256 "d85b47ce2cb1fadfca660cee065377408b1ac6407f5bc779e989a0067cce793b"
+      url "https://github.com/charitraa/NepLang/releases/download/v1.0.4/neplang-linux-arm64"
+      sha256 "dc3984e3c2548a80a7ec9af24d49e2da8b64fa1d261de7d043c0641554e92503"
     end
   end
 
